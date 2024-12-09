@@ -5,7 +5,7 @@ import org.springframework.boot.SpringApplication;
 public class TestEstocknotifierServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.from(EstocknotifierServiceApplication::main).with(TestcontainersConfiguration.class).run(args);
+		SpringApplication.from(Application::main).with(TestcontainersConfiguration.class).run(args);
 	}
 
 }
